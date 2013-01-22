@@ -1,0 +1,7 @@
+<div class="span3 violation_reports">
+        <h4 class="item-title"><%= item.TITLE %></h4>
+		<% if (proof) { %>
+			<img src="<%= proof%>" class="img-polaroid" />
+		<% } %>
+        <div class="item-description"><%= item.DESCRIPTION %></div>
+</div>
